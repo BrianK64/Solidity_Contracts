@@ -26,3 +26,19 @@ Output from script will appear in remix terminal.
 Please note, require/import is supported in a limited manner for Remix supported modules.
 For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
 For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+
+
+# Solidity_Contracts
+Initiate and Maintain Smart Contracts Using Solidity.
+
+## A little background of Solidity before starting off
+Solidity is an object-oriented programmming language highly influenced by high-level languages: C++, JavaScript, and Python.
+Solidity is relatively easy to understand code structure and syntax due to its high-level nature.
+It is stattically types, meaning variable types are known at compile time (i.e. types of variables are specified), and this allows checking for trivial errors and bugs at a a very early stage.
+Because it is object  oriented, it supports inheritance. Importing libraries, contructing user-defined types are also possible.
+
+### Note to self
+__License__: Generally, it is a standard practice to incorporate license identifer for documenting and communicating software license information; use a notion of along the line with "SPDX-License-Identifier: and comment it out.
+MIT, Apache-2.0, and GPL-3.0 are most common licenses.
+
+__Version Compatibility & Consistency__: 
