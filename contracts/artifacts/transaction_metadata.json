@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "account1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "account2",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "Initialize a \"dictionary\" or \"hash table\" that stores data that associates each account name with its address. Another for association between addresses and amount of balance.*"
+				}
+			},
+			"notice": "This program is to demonstrate simplified version of transaction between two entities (individuals or addresses). Functions to be implemented here are:  checkBalance - checks current balanse of certain entity's wallet. deposit -  put amount into the account send - send amount to other address*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/transaction.sol": "transaction"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/transaction.sol": {
+			"keccak256": "0xb347ff8058d65233fa5845fe77aca959bc1dccd732b527e87df2dfed5a78e216",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://da1d65e9b86cde731e46677ea8f122befcdcc79455a9581b2afc32aa1898bc83",
+				"dweb:/ipfs/QmVAGqsv84qQWAToCVGv8nBHxwHNx7PrKejfACdooVSe8e"
+			]
+		}
+	},
+	"version": 1
+}
