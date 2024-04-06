@@ -37,6 +37,13 @@ Solidity is relatively easy to understand code structure and syntax due to its h
 It is stattically types, meaning variable types are known at compile time (i.e. types of variables are specified), and this allows checking for trivial errors and bugs at a a very early stage.
 Because it is object  oriented, it supports inheritance. Importing libraries, contructing user-defined types are also possible.
 
+## Important components of Solidity
+
+__Keywords__: keywords cannot be used as names for variables such as Contract, library, modifier, etc.
+__Identifiers__: Any vairables, and functions in smart contracts can be defined.
+__Literals__: Datatypes
+__Punctuation__: Symbols: ";", ":", etc.
+
 ### Note to self
 __License__: Generally, it is a standard practice to incorporate license identifer for documenting and communicating software license information; use a notion of along the line with "SPDX-License-Identifier: and comment it out.
 MIT, Apache-2.0, and GPL-3.0 are most common licenses.
