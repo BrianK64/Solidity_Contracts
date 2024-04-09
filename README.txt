@@ -49,3 +49,9 @@ __License__: Generally, it is a standard practice to incorporate license identif
 MIT, Apache-2.0, and GPL-3.0 are most common licenses.
 
 __Version Compatibility & Consistency__: 
+
+
+# trasnfer.sol
+
+This solidity code serves to simulate a basic smart contract functionality: transact between two wallet accounts.
+A function deposit() will deposit specified amount of value into the smart contract. This depositted value will be stored in the smart contract's global uint variable balance.
